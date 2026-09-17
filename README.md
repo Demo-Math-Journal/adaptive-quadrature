@@ -4,7 +4,7 @@ Error-controlled numerical integration: adaptive Simpson's rule versus a fixed-g
 
 A fixed grid has to be fine everywhere to resolve a sharp, localized feature, even where the integrand is flat and easy. Adaptive quadrature instead recurses only where a local error estimate says it needs to, concentrating function evaluations near the hard part of the integrand. The experiment here integrates a narrow peak sitting inside a wide, mostly-flat domain — the regime where that difference actually matters — and shows adaptive Simpson's rule reaching several orders of magnitude lower error than a fixed grid given the same number of evaluations.
 
-**Topics:** numerical-analysis, numerical-integration, quadrature, adaptive-methods
+**Topics:** numerical-analysis, numerical-integration, quadrature, adaptive-methods, math
 
 ## Structure
 
